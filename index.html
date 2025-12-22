@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>조선 시대 왕 (1대~10대) 타임라인</title>
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Jua', sans-serif;
+            background-color: #f0f8ff; /* 연한 하늘색 배경 */
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 30px;
+            font-size: 28px;
+            border-bottom: 3px solid #ffd700;
+            display: inline-block;
+            padding-bottom: 10px;
+        }
+
+        .header-wrapper {
+            text-align: center;
+        }
+
+        /* 타임라인 스타일 */
+        .timeline {
+            position: relative;
+            padding-left: 30px;
+            border-left: 4px solid #ffd700; /* 노란색 중심선 */
+        }
+
+        .king-card {
+            position: relative;
+            background: #fff;
+            border: 2px solid #e1e1e1;
+            border-radius: 15px;
+            margin-bottom: 25px;
+            padding: 15px;
+            transition: transform 0.2s;
+        }
+
+        .king-card:hover {
+            transform: scale(1.02);
+            border-color: #6495ed;
+            background-color: #f9fcff;
+        }
+
+        /* 타임라인 점 */
+        .king-card::before {
+            content: '';
+            position: absolute;
+            left: -39px; /* 선 위로 이동 */
+            top: 20px;
+            width: 14px;
+            height: 14px;
+            background-color: #ff6b6b;
+            border-radius: 50%;
+            border: 3px solid #fff;
+        }
+
+        .king-name {
+            font-size: 20px;
+            color: #1e90ff; /* 파란색 강조 */
+            margin-bottom: 8px;
+        }
+
+        .king-order {
+            display: inline-block;
+            background-color: #1e90ff;
+            color: white;
+            font-size: 14px;
+            padding: 3px 8px;
+            border-radius: 10px;
+            margin-right: 8px;
+            vertical-align: middle;
+        }
+
+        .achievement {
+            font-size: 17px;
+            line-height: 1.5;
+            color: #555;
+        }
+
+        .highlight {
+            background-color: #fffacd; /* 형광펜 효과 */
+            padding: 0 4px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 14px;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="header-wrapper">
+            <h1>👑 조선의 왕 (1대~10대)</h1>
+        </div>
+        
+        <div class="timeline">
+            <div class="king-card">
+                <div class="king-name">
+                    <span class="king-order">제1대</span> 태조
+                </div>
+                <div class="achievement">
+                    조선을 건국하고 수도를 <span class="highlight">한양(서울)</span>으로 옮겼어요.
+                </div>
+            </div>
+
+            <div class="king-card">
+                <div class="king-name">
+                    <span class="king-order">제2대</span> 정종
+                </div>
+                <div class="achievement">
+                    나라의 혼란을 수습하고 안정을 찾기 위해 노력했어요.
+                </div>
+            </div>
+
+            <div class="king-card">
+                <div class="king-name">
+                    <span class="king-order">제3대</span> 태종
+                </div>
+                <div class="achievement">
+                    <span class="highlight">호패법</span>(지금의 신분증)을 실시하여 왕권을 강화했어요.
+                </div>
+            </div>
+
+            <div class="king-card">
+                <div class="king-name">
+                    <span class="king-order">제4대</span> 세종
+                </div>
+                <div class="achievement">
+                    우리 글 <span class="highlight">훈민정음</span>을 만들고 과학 기술을 발전시켰어요.
+                </div>
+            </div>
+
+            <div class="king-card">
+                <div class="king-name">
+                    <span class="king-order">제5대</span> 문종
+                </div>
+                <div class="achievement">
+                    세종 대왕의 뜻을 이어받아 학문과 국방을 챙겼어요.
+                </div>
+            </div>
+
+            <div class="king-card">
+                <div class="king-name">
+                    <span class="king-order">제6대</span> 단종
+                </div>
+                <div class="achievement">
+                    12살의 어린 나이에 왕이 되었지만, 삼촌에게 왕위를 넘겨주었어요.
+                </div>
+            </div>
+
+            <div class="king-card">
+                <div class="king-name">
+                    <span class="king-order">제7대</span> 세조
+                </div>
+                <div class="achievement">
+                    나라의 법전인 <span class="highlight">'경국대전'</span>을 만들기 시작했어요.
+                </div>
+            </div>
+
+            <div class="king-card">
+                <div class="king-name">
+                    <span class="king-order">제8대</span> 예종
+                </div>
+                <div class="achievement">
+                    짧은 기간 동안 나라를 다스렸지만 효심이 깊었어요.
+                </div>
+            </div>
+
+            <div class="king-card">
+                <div class="king-name">
+                    <span class="king-order">제9대</span> 성종
+                </div>
+                <div class="achievement">
+                    <span class="highlight">'경국대전'을 완성</span>하여 조선의 통치 제도를 확립했어요.
+                </div>
+            </div>
+
+            <div class="king-card">
+                <div class="king-name">
+                    <span class="king-order">제10대</span> 연산군
+                </div>
+                <div class="achievement">
+                    잘못된 정치로 인해 신하들에 의해 왕위에서 쫓겨났어요.
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            5학년 사회 보충학습 자료 | 조선 시대 알아보기
+        </footer>
+    </div>
+
+</body>
+</html>
